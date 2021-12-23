@@ -111,13 +111,12 @@ hr{
 }
 .p1{
   max-width: 900px;
-  min-width: 900px;
   height: 320px;
-  background-image: url("../images/p_1.svg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  /* border-radius: 30px; */
-  /* box-shadow: 0 0 15px 0.5em  #B6ABDC; */
+  /* background-image: url("../images/p_1.svg"); */
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
+  border-radius: 30px;
+  box-shadow: 0 0 15px 0.5em  #B6ABDC;
   color: #8F9BB3;
   padding: 3em;
   display: flex;
@@ -338,4 +337,18 @@ button:hover {
     display: flex;
     flex-direction: column;
     row-gap: 0.8em;
+  }
+  input{
+    height: 150px;
+    width: 500px;
+    border-radius: 30px;
+    border: none;
+    filter: drop-shadow( 0 0 15px #DBDBDB);
+    /* color: #161716;
+    background-color: #DBDBDB; */
+    color: #DBDBDB;
+    background-color:#161716 ;
+    font-size: 2.2em;
+    font-family: 'Fugue';
+    transition: 1s;
   }
