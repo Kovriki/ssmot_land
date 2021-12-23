@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Partners</title>
+    <link rel="stylesheet" href="stylesheets/style.css">
     <style media="screen">
       body{
         padding: 50px 50px;
@@ -12,9 +13,273 @@
       *{
         box-sizing: border-box;
       }
+
+      .one{
+        border: 3px solid #B0B0B0;
+        border-right: none;
+        border-left: none;
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: end;
+        padding-bottom: 3em;
+      }
+      .one h3{
+        max-width: 600px;
+        margin-top: 2em;
+        /* margin-bottom: 2em; */
+      }
+      .two{
+        display: flex;
+        flex-direction: row;
+        gap: 10em;
+        margin-top: 6em;
+
+      }
+      .star_3{
+        width: 65px;
+        height: 65px;
+        background-image: url("images/star_3.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+      .points{
+        display: flex;
+        flex-direction: column;
+        gap:4em;
+      }
+      .point{
+        display: flex;
+        flex-direction: row;
+        gap:1em;
+
+      }
+      .point h3{
+        max-width: 700px;
+      }
+
+
+
+
+      .p_bl{
+        width: 100%;
+        height: 500px;
+        background-color: #B6ABDC;
+        filter: blur(8em);
+        position: absolute;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+      }
+      .three{
+        /* display: flex; */
+        justify-content: center;
+        position: relative;
+            height: 600px;
+        margin-top: 100px;
+      }
+      .three h1 {
+        color: #1D1D1B;
+        text-align: center;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+      }
+      .num_list{
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        gap: 4em;
+
+      }
+      .num_n h1{
+        margin: 0;
+      }
+      .num_n p {
+        max-width: 600px;
+      }
+      .num_n{
+        display: flex;
+        flex-direction: row;
+        gap: 2em;
+        margin-left: 20vw;
+      }
+
+      .star_4 {
+        width: 100px;
+        height: 100px;
+        background-image: url("images/star_4.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        z-index: 6;
+      }
+      .four {
+        max-width: 1340px;
+        min-width: 900px;
+        height: 666px;
+        border-radius: 30px;
+        box-shadow: 0 0 15px 0.5em #D6EBC0;
+        color: #8F9BB3;
+        padding: 3em;
+        display: flex;
+        margin-top: 10em;
+
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: end;
+        padding-bottom: 6em;
+      }
+      .four h1{
+        max-width: 1100px;
+        min-width: 600px;
+        margin-top: 0;
+      }
+      .four p{
+        max-width: 600px;
+      }
+      .five{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+      }
+      .five_t{
+        display: flex;
+        flex-direction: column;
+        gap:3em;
+      }
+      .five_t p, .five_t h1{
+        color: #B6ABDC;
+
+      }
+      .cont {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 3em;
+        justify-content: space-between;
+        margin-top: 3em;
+        margin-bottom: 6em;
+      }
+      input{
+        height: 150px;
+        width: 700px;
+        border-radius: 30px;
+        border: none;
+        filter: drop-shadow( 0 0 15px #B6ABDC);
+        color: #DBDBDB;
+        background-color:#161716 ;
+        font-size: 2.2em;
+        font-family: 'Fugue';
+        transition: 1s;
+        padding-left: 1em;
+      }
+
     </style>
   </head>
   <body>
+    <div class="nav">
+        <div class="logo"></div>
+        <a href="index.html">О&nbspнас</a>
+    </div>
+    <div class="one">
+      <h1>Хочешь продвигать свой магазин?</h1>
+      <div class="star"></div>
+      <h1><span style="color: #B0C4EA;">Поможем!</span></h1>
+      <h3><span style="color: #B0C4EA;" >Стань главным суетологом вместе со&nbspШмотом</span></h3>
+    </div>
+
+    <div class="two">
+        <p class="text">Как это работает?</p>
+      <div class="points">
+          <div class="point">
+            <div class="star_3"></div>
+            <h3>Наш&nbspсервис показывает пользователям <span style="color:#9C88E3">все&nbspсобытия</span> вне зависимости от&nbspнынешней вашей популярности.</h3>
+          </div>
+          <div class="point">
+            <div class="star_3"></div>
+            <h3>Публикуемые мероприятия <span style="color:#9C88E3">фильтруются по&nbspкатегориям</span> и&nbspкажное найдёт своего зрителя.</h3>
+          </div>
+          <div class="point">
+            <div class="star_3"></div>
+            <h3>После посещения мероприятия, которое вы&nbspорганизовывали пользователи будут <span style="color:#9C88E3">доверять</span> вашему магазину.</h3>
+          </div>
+          <div class="point">
+            <div class="star_3"></div>
+            <h3><span style="color:#9C88E3">Не&nbspимеет значения, онлайн или&nbspофлайн</span> у&nbspвас&nbspмагазин. Пользователи будут видеть все.</h3>
+          </div>
+          <div class="point">
+            <div class="star_3"></div>
+            <h3>Размещая информацию о&nbspсвопах, пати или&nbspакциях вы&nbsp<span style="color:#9C88E3">привлекаете</span> заинтересованную в&nbspмоде <span style="color:#9C88E3">аудиторию.</span></h3>
+          </div>
+      </div>
+    </div>
+    <hr>
+    <div class="three">
+      <div class="p_bl"></div>
+      <h1>Что&nbspнужно для&nbspэтого сделать?</h1>
+    </div>
+
+      <div class="num_list">
+        <div class="num_n">
+          <h1>1)</h1>
+          <p>Создать страницу магазина на&nbspнашем медиа сервисе</p>
+        </div>
+        <div class="num_n">
+          <h1>2)</h1>
+          <p>Заполнить всю&nbspактуальную информацию</p>
+        </div>
+        <div class="num_n">
+          <h1>3)</h1>
+          <p>Публиковать обновления</p>
+        </div>
+      </div>
+
+
+    <div class="four">
+          <h1><span style="color:#D6EBC0">Шмот ищет редакторов</span></h1>
+          <div class="star_4"></div>
+          <p>Если ты&nbspумеешь составлять классные и&nbspкрасивые подборки. А&nbspтак же&nbspумеешь писать интересные статьи. Пиши нам на&nbspпочту.</p>
+          <button type="button" name="button">Подробнее</button>
+    </div>
+
+    <div class="five">
+      <div class="five_t">
+        <h1><span>Хотите обсудить подробнее?</span></h1>
+        <p>Напишите нам на почту</p>
+      </div>
+      <div class="planet"></div>
+
+    </div>
+    <div class="cont">
+      <input type="email" name="" value="" placeholder="e-mail">
+      <button type="button" name="button">Отправить</button>
+    </div>
+
+
+    <hr>
+    <footer>
+      <div class="logo"></div>
+       <div class="links">
+         <a href="#">Instagram</a>
+         <a href="#">Facebook</a>
+         <a href="#">Vkontakte</a>
+       </div>
+       <a href="index.html">О нас</a>
+       <p>2021</p>
+       <p>©  Все права защищены</p>
+
+    </footer>
 
   </body>
 </html>
