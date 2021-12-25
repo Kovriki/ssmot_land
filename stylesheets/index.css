@@ -201,26 +201,8 @@ hr{
   margin-top: 2em;
   margin-bottom: 2em;
 }
-button{
-  height: 150px;
-  width: 500px;
-  border-radius: 30px;
-  border: none;
-  filter: drop-shadow( 0 0 15px #DBDBDB);
-  /* color: #161716;
-  background-color: #DBDBDB; */
-  color: #DBDBDB;
-  background-color:#161716 ;
-  font-size: 2.2em;
-  font-family: 'Fugue';
-  transition: 1s;
-}
-button:hover {
-  filter: drop-shadow( 0 0 5px #DBDBDB);
-  color: #161716;
-  background-color: #DBDBDB;
-  transition: .6s;
-}
+
+
 
 .sixth{
   display: flex;
